@@ -77,3 +77,11 @@ section#login > div#imagem {
     padding: 10px;
 }
 
+form#iform {
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.botao {
+    margin-top: 15px;
+}
