@@ -24,14 +24,18 @@
    div#formulario > p {
         font-size: 1.2em
     }
+
+    form {
+        text-align: center;
+    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px){
     body {
         background-image: linear-gradient(to bottom, #885DFA, 
         #ED5CFA);
     }
-    
+
     section#login {
         width: 80vw;
     }
@@ -54,5 +58,27 @@
 
     section#login > div#formulario > p {
         font-size: 1.2em
+    }
+
+    form {
+        text-align: center;
+    }
+
+    form > input[type=submit] {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    form > a {
+        display: block;
+        width: 50%;
+    }
+
+    section#login > div#formulario > form > a {
+        margin: 8px auto;
+    }
+    
+    main {
+        max-width: 1500px;
     }
 }

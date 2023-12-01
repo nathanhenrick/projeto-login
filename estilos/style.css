@@ -35,7 +35,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
 
     border-radius: 25px;
     box-sizing: border-box;
@@ -82,6 +82,56 @@ form#iform {
     font-size: 0.8em;
 }
 
-.botao {
-    margin-top: 15px;
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+
+    background-color: #885DFA;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+form > input[type=submit]:hover {
+    background-color: #6142b6;
+}
+
+form .campo {
+    margin: 8px 0px;
+    padding: 2px;
+    border-radius: 3px;
+
+    background-color: #9d7ef3;
+    color: white;
+
+    font-weight: bold;
+
+    
+}
+form .botao {
+    display: block;
+    text-align: center;
+    margin: 8px 0px;
+
+    border: 2px solid #885DFA;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form a {
+    color: #885DFA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form .botao:hover {
+    background-color: #ae91ff;
+    color: white;
+}
+
+.material-symbols-outlined {
+    margin-top: 6px;
 }
